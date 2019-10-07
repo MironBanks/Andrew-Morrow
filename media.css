@@ -1,0 +1,194 @@
+@media (max-width: 768px) {
+
+  html, body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .whitespace {
+    display: none;
+  }
+
+  nav {
+    width: 100vw;
+  }
+
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+    margin-right: 3px;
+  }
+
+  nav #brand {
+    margin-left: 24px;
+  }
+
+  #menu a {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #resize{
+    width: 100vw;
+  }
+
+  #resize li span {
+    font-weight: bolder;
+  }
+
+  nav #menu {
+    display: none;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .hero h1 {
+    line-height: 48px;
+  }
+
+  .project {
+    width: 90% !important;
+    margin: 14px auto;
+  }
+
+  .vertical {
+    display: none;
+  }
+
+  .project1::after {
+    font-size: 26px;
+    left: 10%;
+    top: 70%;
+  }
+
+  .project2::after{
+    font-size: 26px;
+    top: 70%;
+    left: -3%;
+  }
+
+  .project3::after{
+    font-size: 26px;
+    top: 80%;
+    left: 15%;
+  }
+
+  .project4::after {
+    font-size: 26px;
+    top: 10%;
+    left: 40%;
+  }
+
+  .collab, #personal, #media, #address {
+    text-align: center;
+  }
+
+  .info ul {
+    margin: 0 0 0 -22px;
+    padding: 0;
+  }
+
+  .hero-content {
+    padding-top: 50px;
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  #contact-form {
+    margin: 5% -8%;
+    width: 98%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+    margin-right: 3px;
+  }
+
+  nav #brand {
+    margin-left: 24px;
+  }
+
+  #menu a {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #resize{
+    width: 100vw;
+  }
+
+  #resize li span {
+    font-weight: bolder;
+  }
+
+  nav #menu {
+    display: none;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .project {
+    width: 90vw !important;
+    margin: 14px auto;
+  }
+
+  .project1::after {
+    top: 60%;
+    left: 1%;
+  }
+
+  .project2::after{
+    top: 80%;
+    left: 55%;
+  }
+
+  .project3::after{
+    top: 80%;
+    left: 1%;
+  }
+
+  .project4::after {
+    top: 10%;
+    left: 60%;
+  }
+
+  .collab, #personal, #media, #address {
+    text-align: center;
+  }
+
+  .info ul {
+    margin: 0 0 0 -22px;
+    padding: 0;
+  }
+
+  .hero-content {
+    padding-top: 50px;
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  #contact-form {
+    margin: 5% -8%;
+    width: 98%;
+  }
+
+}
+
+
+/*@media(min-width: 768px) {
+
+  #resize {
+    visibility: hidden !important;
+  }
+}*/
