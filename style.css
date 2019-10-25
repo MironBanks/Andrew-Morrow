@@ -481,13 +481,14 @@ h6 {
 /*---------------about page --------------- */
 
 .about {
-      height: 500px;
+      height: 630px;
       margin-top: 120px;
 }
 
 .image {
-      background: url(https://images.unsplash.com/photo-1561140895-9d144461935e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) no-repeat 50% 70%;
+      background: url(https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80) no-repeat 50% 70%;
 }
+
 
 /*--------------- contact form --------------- */
 
