@@ -608,3 +608,17 @@ textarea:focus {
   text-decoration: none;
   color: #ffc93c;
 }
+
+.mailto {
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Mono';
+  font-weight: 200;
+  font-size: 18px;
+  color: #fff;
+}
+
+.mailto:hover {
+  text-decoration: none;
+  color: #ffc93c;
+}
